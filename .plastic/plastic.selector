@@ -1,0 +1,4 @@
+repository "Prototype 1@LeftForCat@cloud"
+  path "/"
+    br "/main"
+    co "/main"
