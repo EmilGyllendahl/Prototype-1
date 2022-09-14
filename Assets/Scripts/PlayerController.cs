@@ -8,7 +8,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float turnSpeed;
     [SerializeField] private float horizontalInput;
     [SerializeField] private float forwardInput;
-
     [SerializeField] private Rigidbody characterBody; // Skapar fält fär objektets rigidbody 
 
 
@@ -24,7 +23,9 @@ public class PlayerController : MonoBehaviour
     {
 
         horizontalInput = Input.GetAxis("Horizontal"); // horizontalinput variabeln som hämtar inputen och värdet ifrån det.
+        
         forwardInput = Input.GetAxis("Vertical");
+
 
         // Move the vechicle forward based on vertical input
 
