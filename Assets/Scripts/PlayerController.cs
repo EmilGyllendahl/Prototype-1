@@ -11,6 +11,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Rigidbody characterBody; // Skapar fält fär objektets rigidbody 
 
 
+    public Camera thirdPersonCamera;
+    public Camera firstPersonCamera;
+    public KeyCode switchkey;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +29,8 @@ public class PlayerController : MonoBehaviour
         horizontalInput = Input.GetAxis("Horizontal"); // horizontalinput variabeln som hämtar inputen och värdet ifrån det.
         
         forwardInput = Input.GetAxis("Vertical");
+
+        if(Input.GetKeyDown)
 
 
         // Move the vechicle forward based on vertical input
