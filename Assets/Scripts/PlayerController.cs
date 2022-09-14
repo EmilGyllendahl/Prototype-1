@@ -30,7 +30,7 @@ public class PlayerController : MonoBehaviour
         
         forwardInput = Input.GetAxis("Vertical");
 
-        if(Input.GetKeyDown)
+       
 
 
         // Move the vechicle forward based on vertical input
